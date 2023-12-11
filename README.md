@@ -4,18 +4,23 @@
 The "Maven Movies" database represents a comprehensive movie rental system with interconnected tables capturing information about actors, films, customers, payments, and more. This dataset is designed to facilitate data analysis and retrieval related to a movie rental business.
 ### Database Schema
 Actor Table
+
 actor_id: Unique identifier for each actor.
 first_name: First name of the actor.
 last_name: Last name of the actor.
 last_update: Timestamp indicating the last update of the actor's information.
+
 Actor Award Table
+
 actor_award_id: Unique identifier for each actor award entry.
 actor_id: Reference to the actor who received the award.
 first_name: First name of the actor.
 last_name: Last name of the actor.
 awards: Type of award received.
 last_update: Timestamp indicating the last update of the award information.
+
 Address Table
+
 address_id: Unique identifier for each address.
 address: Street address.
 address2: Additional address information.
@@ -24,16 +29,22 @@ city_id: Reference to the city associated with the address.
 postal_code: Postal code.
 phone: Contact phone number.
 last_update: Timestamp indicating the last update of the address information.
+
 Advisor Table
+
 advisor_id: Unique identifier for each advisor.
 first_name: First name of the advisor.
 last_name: Last name of the advisor.
 is_chairmain: Indicator of whether the advisor is the chairman.
+
 Category Table
+
 category_id: Unique identifier for each category.
 name: Name of the category.
 last_update: Timestamp indicating the last update of the category information.
+
 City Table
+
 city_id: Unique identifier for each city.
 city: City name.
 country_id: Reference to the country associated with the city.
